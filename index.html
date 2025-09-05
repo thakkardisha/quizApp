@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Quiz Application</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+</head>
+<body>
+    <div class="quiz-card">
+        <div id="score-board">
+            Score: <span id="score">0</span>
+        </div>
+        <div id="question-container">
+            <div id="question"></div>
+            <div id="options"></div>
+            <div id="feedback"></div>
+            <button id="next-btn" class="btn hidden">Next Question</button>
+        </div>
+        <div id="end-container" class="hidden">
+            <div id="final-message"></div>
+            <div id="final-score"></div>
+            <button id="restart-btn" class="btn">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="assests/js/quiz.js"></script>
+</body>
+</html>
